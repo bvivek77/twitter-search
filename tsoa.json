@@ -1,0 +1,13 @@
+{
+  "entryFile": "./src/server.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "spec": {
+    "specVersion": 3,
+    "outputDirectory": "dist"
+  },
+  "routes": {
+    "routesDir": "./src",
+    "middleware": "koa"
+  },
+  "ignore": ["**/node_modules/**"]
+}
